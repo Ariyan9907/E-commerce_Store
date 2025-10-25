@@ -67,3 +67,41 @@ A simple e-commerce store built with HTML, CSS, JavaScript, Node.js, Express, an
 ### Orders
 - GET `/api/orders` - Get user's orders
 - POST `/api/orders` - Create new order
+
+### Project Structure
+ecommerce/
+├── config/
+│   └── database.js          # MySQL database connection
+├── database/
+│   ├── schema.sql           # Database schema
+│   └── seed.sql             # Sample product data
+├── middleware/
+│   └── auth.js              # JWT authentication middleware
+├── routes/
+│   ├── products.js          # Product API routes
+│   ├── users.js             # User registration/login
+│   ├── cart.js              # Shopping cart routes
+│   └── orders.js            # Order management
+├── public/
+│   ├── css/
+│   │   └── style.css        # Responsive CSS styles
+│   ├── js/
+│   │   ├── auth.js          # Authentication utilities
+│   │   ├── app.js           # Product listing page
+│   │   ├── product-details.js
+│   │   ├── cart.js
+│   │   ├── checkout.js
+│   │   ├── login.js
+│   │   ├── register.js
+│   │   └── orders.js
+│   ├── index.html           # Home/Products page
+│   ├── product-details.html
+│   ├── cart.html
+│   ├── checkout.html
+│   ├── login.html
+│   ├── register.html
+│   └── orders.html
+├── server.js                # Express server
+├── package.json
+├── .env.example
+└── README.md
