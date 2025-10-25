@@ -69,6 +69,7 @@ A simple e-commerce store built with HTML, CSS, JavaScript, Node.js, Express, an
 - POST `/api/orders` - Create new order
 
 ### Project Structure
+ ```bash
 ecommerce/
 ├── config/
 │   └── database.js           # MySQL database connection
@@ -112,4 +113,5 @@ ecommerce/
 ├── package.json
 ├── .env.example              # Example environment configuration
 └── README.md
+   ```
 
